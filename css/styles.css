@@ -1,0 +1,50 @@
+.guest, .familiar {
+    font-size: 1.7ex;
+    margin-right: 5px;
+}
+.left-navbar, .navbar-brand {
+    margin-left: 35px;
+    margin-right: 30px;
+}
+.guest {
+    display: inline;
+}
+.familiar {
+    display: none;
+}
+.form-outline {
+    margin-bottom: 8px;
+}
+h2 {
+    margin: 0.4ex;
+}
+h3 {
+    margin: 0.2ex;
+}
+p {
+    margin-bottom: 8px;
+}
+.carousel-item {
+    height: 500px;
+}
+.carousel-caption {
+    text-shadow: 1px 1px 2px black;
+}
+.col-md-6 {
+    padding: 12px;
+}
+.row {
+    margin-bottom: 10px;
+}
+#error-msg, #error-msg2 {
+    display: none;
+    color: #CC0000;
+}
+#success-msg {
+    color: green;
+    display: none;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
