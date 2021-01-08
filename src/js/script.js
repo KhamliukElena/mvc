@@ -35,7 +35,7 @@ $(document).ready(function() {
                 }
             })
         }
-        catch {
+        catch (ex) {
             $('#error-msg').css("display", "inline");
         }
     });
@@ -69,7 +69,7 @@ $(document).ready(function() {
                 }
             })
         }
-        catch {
+        catch (err) {
             $('#error-msg2').css("display", "inline");
         }
     });
